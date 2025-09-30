@@ -6,6 +6,8 @@ import Head from './Head.jsx'
 import NavBar from './NavBar.jsx'
 import Home from './Home.jsx'
 import About from './About.jsx'
+import Projects from './Projects.jsx'
+import Services from './Services.jsx'
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
     </Router>
   );

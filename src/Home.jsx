@@ -15,7 +15,7 @@ function Home(){
                 <h2 class="stars">Mission Statement</h2>
                 <p>
                 Mechanical designer with focus on developing automation processes in the aerospace industry. 
-                My goal is to gain more knowledge if software and A.I development and apply what I learn to the aerospace industry.
+                My goal is to gain more knowledge of software and A.I development to apply what I learn to the aerospace industry.
                 </p>
             </div>
             </div>

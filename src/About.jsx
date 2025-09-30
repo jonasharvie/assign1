@@ -11,9 +11,10 @@ function About(){
                 <img src={Jonas} alt="" width="300" />
                 <div class="text-content">
                     <p>
-                    I am a mechanical designer working on quality automation processes in the aerospace industry. 
+                    I am a mechanical designer working on automation processes in the aerospace industry. 
                     I am enrolled in Centennial College's software engineering technology A.I program to apply what I learn to the aerospace industry.
                     </p>
+                    <br />
                     <a href={resume} target="_blank">Open my resume in a new tab.</a>
                 </div>
             </div> 

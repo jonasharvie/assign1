@@ -297,15 +297,22 @@ label {
 
 
 .sitemap {
-   list-style-image: url('images/custom_bullet.png');
- padding-left: 132px;            /* Indent nested lists */
+   list-style-image: none;
+ padding-left: 0px;            /* Indent nested lists */
   margin-left: 0;
 }
 
-.sitemap ul {
-   list-style-image: url('images/custom_bullet.png');
-  padding-left: 36px;            /* Indent nested lists */
-  margin-left: 0;
+
+.sitemap li::before {
+  content: "";
+  display: inline-block;
+  width: 24px;           /* Set width of image */
+  height: 24px;          /* Set height of image */
+  margin-right: 12px;    /* Space between image and text */
+  background-image: url('images/star.png');
+  background-size: contain; /* Scales image to fit width/height */
+  background-repeat: no-repeat;
+  vertical-align: middle;    /* Vertically aligns icon with text */
 }
 
 .member{
