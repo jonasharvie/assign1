@@ -1,10 +1,12 @@
 
-
+// define Services component
 function Services(){
     return(
         <>
         <article>
+            {/*heading*/}
             <h2 class="stars">Services</h2>
+            {/*list of services*/}
             <div class="stars">
                 <br /><br />
                 <ul class="sitemap">
@@ -12,9 +14,8 @@ function Services(){
                     
                     <li>Mobile video game development</li>
                     
-                    <li>desktop video game development</li>
+                    <li>Desktop video game development</li>
                 </ul>
-                
             </div>
             <br /><br />
         </article>
@@ -24,4 +25,5 @@ function Services(){
     )
 }
 
+// export the Home component as default
 export default Services

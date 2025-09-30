@@ -1,14 +1,17 @@
 
+// import images
 import ttam from './images/TTAM_Cover_Image.png'
 import rps from './images/rock_paper_scissors.png'
 import portfolio from './images/portfolio_home.png'
 
+// define Projects component
 function Projects(){
     return(
         <>
         <article>
-            
+            {/*heading*/}
             <h2 class="stars">Projects</h2>
+            {/*table of projects with descriptions*/}
             <table class="stars">
                 <tr>
                     <td>
@@ -41,4 +44,5 @@ function Projects(){
     );
 }
 
+// export the Projects component as default
 export default Projects
