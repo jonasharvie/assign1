@@ -1,9 +1,6 @@
 
-import star from './images/star.png'
-import Jonas from './images/Jonas.jpg'
 
-
-function Home(){
+function Services(){
     return(
         <>
         <article>
@@ -27,4 +24,4 @@ function Home(){
     )
 }
 
-export default Home
+export default Services

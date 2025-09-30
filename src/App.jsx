@@ -8,7 +8,7 @@ import Home from './Home.jsx'
 import About from './About.jsx'
 import Projects from './Projects.jsx'
 import Services from './Services.jsx'
-
+import Contact from './Contact.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

@@ -1,5 +1,5 @@
 
-import star from './images/star.png'
+
 import Jonas from './images/Jonas.jpg'
 
 
